@@ -1,0 +1,268 @@
+
+body {
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+.hero{
+    background-color: rgb(252, 199, 208);
+    height: 100vh;
+    color: rgb(145, 41, 206);
+    font-size: 40px;
+}
+
+
+
+footer{
+    background-color: rgb(252, 199, 208);
+    color: rgb(255, 29, 244);
+    text-align: center;
+    padding: 80px;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(255, 29, 244);
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgb(80, 235, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #af13a2;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: rgb(145, 41, 206);
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section .information {
+    color: rgb(88, 87, 87);
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-section {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(88, 87, 87);
+}
+
+.project-section .link  {
+    color: rgb(145, 41, 206);
+}
+
+.project-section .link :hover {
+    cursor: pointer;
+}
+
+.calculator {
+    width: 200px;
+    border-radius: 100px;
+    margin-left:10px;
+}
+
+.calculator-container {
+    display: flex;
+    align-items: center;
+}
+
+.qr-code {
+    width: 200px;
+    border-radius: 100px;
+    margin-left:10px;
+}
+
+.qr-code-container {
+    display: flex;
+    align-items: center;
+}
+
+.bakery {
+    width: 200px;
+    border-radius: 100px;
+    margin-left:10px;
+}
+
+.bakery-container {
+    display: flex;
+    align-items: center;
+}
+
+.deli {
+    width: 250px;
+    border-radius: 100px;
+    margin-left:10px;
+}
+
+.deli-container {
+    display: flex;
+    align-items: center;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: rgb(255, 29, 244);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: rgb(88, 87, 87);
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: rgb(252, 199, 208);
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(252, 199, 208);
+    }
+
+    .logo {
+        display: none;
+    }
+}
